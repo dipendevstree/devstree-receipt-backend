@@ -1,0 +1,19 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.COMPANY_SETTINGS_SINGLETON_KEY = exports.PASSWORD_HISTORY_DEPTH = exports.PASSWORD_MIN_LENGTH = exports.MAX_PAGE_SIZE = exports.DEFAULT_PAGE_SIZE = exports.ADVISORY_LOCK_PROJECT_CODE = exports.ADVISORY_LOCK_CLIENT_CODE = exports.ADVISORY_LOCK_RECEIPT_NUMBER = exports.CODE_PAD = exports.PROJECT_CODE_PREFIX = exports.CLIENT_CODE_PREFIX = exports.RECEIPT_NUMBER_PAD = exports.RECEIPT_NUMBER_PREFIX = exports.FINANCIAL_UNLOCK_HEADER = exports.MASKED_AMOUNT_PLACEHOLDER = void 0;
+exports.MASKED_AMOUNT_PLACEHOLDER = 'XXX';
+exports.FINANCIAL_UNLOCK_HEADER = 'x-financial-token';
+exports.RECEIPT_NUMBER_PREFIX = 'REC';
+exports.RECEIPT_NUMBER_PAD = 6;
+exports.CLIENT_CODE_PREFIX = 'CLI';
+exports.PROJECT_CODE_PREFIX = 'PRJ';
+exports.CODE_PAD = 4;
+exports.ADVISORY_LOCK_RECEIPT_NUMBER = 815_001;
+exports.ADVISORY_LOCK_CLIENT_CODE = 815_002;
+exports.ADVISORY_LOCK_PROJECT_CODE = 815_003;
+exports.DEFAULT_PAGE_SIZE = 20;
+exports.MAX_PAGE_SIZE = 100;
+exports.PASSWORD_MIN_LENGTH = 10;
+exports.PASSWORD_HISTORY_DEPTH = 5;
+exports.COMPANY_SETTINGS_SINGLETON_KEY = 'default';
+//# sourceMappingURL=app.constants.js.map

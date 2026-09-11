@@ -1,0 +1,46 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AuditModule = exports.AuditAction = void 0;
+var AuditAction;
+(function (AuditAction) {
+    AuditAction["LOGIN"] = "LOGIN";
+    AuditAction["LOGIN_FAILED"] = "LOGIN_FAILED";
+    AuditAction["LOGOUT"] = "LOGOUT";
+    AuditAction["TOKEN_REFRESHED"] = "TOKEN_REFRESHED";
+    AuditAction["CLIENT_CREATED"] = "CLIENT_CREATED";
+    AuditAction["CLIENT_UPDATED"] = "CLIENT_UPDATED";
+    AuditAction["CLIENT_ARCHIVED"] = "CLIENT_ARCHIVED";
+    AuditAction["PROJECT_CREATED"] = "PROJECT_CREATED";
+    AuditAction["PROJECT_UPDATED"] = "PROJECT_UPDATED";
+    AuditAction["PROJECT_ARCHIVED"] = "PROJECT_ARCHIVED";
+    AuditAction["PAYMENT_CREATED"] = "PAYMENT_CREATED";
+    AuditAction["PAYMENT_UPDATED"] = "PAYMENT_UPDATED";
+    AuditAction["PAYMENT_VOIDED"] = "PAYMENT_VOIDED";
+    AuditAction["RECEIPT_GENERATED"] = "RECEIPT_GENERATED";
+    AuditAction["RECEIPT_DOWNLOADED"] = "RECEIPT_DOWNLOADED";
+    AuditAction["FINANCIAL_UNLOCKED"] = "FINANCIAL_UNLOCKED";
+    AuditAction["FINANCIAL_LOCKED"] = "FINANCIAL_LOCKED";
+    AuditAction["FINANCIAL_UNLOCK_FAILED"] = "FINANCIAL_UNLOCK_FAILED";
+    AuditAction["LOGIN_PASSWORD_CHANGED"] = "LOGIN_PASSWORD_CHANGED";
+    AuditAction["ACCOUNT_PASSWORD_CHANGED"] = "ACCOUNT_PASSWORD_CHANGED";
+    AuditAction["PASSWORD_RESET_REQUESTED"] = "PASSWORD_RESET_REQUESTED";
+    AuditAction["PASSWORD_RESET_COMPLETED"] = "PASSWORD_RESET_COMPLETED";
+    AuditAction["USER_CREATED"] = "USER_CREATED";
+    AuditAction["USER_UPDATED"] = "USER_UPDATED";
+    AuditAction["USER_ARCHIVED"] = "USER_ARCHIVED";
+    AuditAction["SETTINGS_UPDATED"] = "SETTINGS_UPDATED";
+    AuditAction["REPORT_EXPORTED"] = "REPORT_EXPORTED";
+})(AuditAction || (exports.AuditAction = AuditAction = {}));
+var AuditModule;
+(function (AuditModule) {
+    AuditModule["AUTH"] = "AUTH";
+    AuditModule["CLIENTS"] = "CLIENTS";
+    AuditModule["PROJECTS"] = "PROJECTS";
+    AuditModule["PAYMENTS"] = "PAYMENTS";
+    AuditModule["RECEIPTS"] = "RECEIPTS";
+    AuditModule["FINANCIAL"] = "FINANCIAL";
+    AuditModule["USERS"] = "USERS";
+    AuditModule["SETTINGS"] = "SETTINGS";
+    AuditModule["REPORTS"] = "REPORTS";
+})(AuditModule || (exports.AuditModule = AuditModule = {}));
+//# sourceMappingURL=audit-action.enum.js.map
